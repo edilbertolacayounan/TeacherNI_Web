@@ -1,87 +1,68 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
 }
 
-body {
-    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
-    background: #f4f6f9;
-    min-height: 100vh;
-    padding: 40px 20px;
-    color: #333;
+body{
+    font-family:'Segoe UI',sans-serif;
+    background:#f4f6f9;
+    padding:40px;
+    color:#333;
 }
 
-.contenedor {
-    max-width: 900px;
-    margin: 0 auto;
+.contenedor{
+    max-width:1000px;
+    margin:auto;
 }
 
-.hero {
-    text-align: center;
-    margin-bottom: 30px;
+.hero{
+    text-align:center;
+    margin-bottom:30px;
 }
 
-.hero h1 {
-    color: #2c3e50;
-    margin-bottom: 10px;
-    font-size: 2.2rem;
+.hero h1{
+    color:#2c3e50;
+    margin-bottom:10px;
 }
 
-.hero p {
-    color: #666;
-    font-size: 1.1rem;
+.tarjeta{
+    background:white;
+    padding:25px;
+    margin-bottom:25px;
+    border-radius:15px;
+    box-shadow:0 4px 12px rgba(0,0,0,.08);
+    transition:.3s;
 }
 
-.tarjeta {
-    background: white;
-    border-radius: 16px;
-    padding: 25px;
-    margin-bottom: 25px;
-
-    box-shadow:
-        0 4px 10px rgba(0,0,0,0.08);
-
-    transition: all 0.3s ease;
+.tarjeta:hover{
+    transform:translateY(-3px);
 }
 
-.tarjeta:hover {
-    transform: translateY(-4px);
+.tarjeta h2{
+    margin-bottom:15px;
 }
 
-.tarjeta h2 {
-    margin-bottom: 12px;
-    color: #34495e;
+.tarjeta-perfil{
+    text-align:center;
 }
 
-.tarjeta p {
-    line-height: 1.6;
+#imagen-avatar{
+    width:220px;
+    height:220px;
+    border-radius:50%;
+    object-fit:cover;
+    display:block;
+    margin:auto;
+    margin-bottom:15px;
 }
 
-.perfil {
-    text-align: center;
+input{
+    width:100%;
+    padding:10px;
+    margin-top:10px;
 }
 
-#imagen-avatar {
-    width: 200px;
-    height: 200px;
-    border-radius: 50%;
-    object-fit: cover;
-    display: block;
-    margin: 0 auto 20px auto;
-    border: 5px solid #3498db;
-}
-
-#nombre-usuario {
-    margin-bottom: 10px;
-    color: #2c3e50;
-}
-
-#descripcion {
-    color: #555;
-}
-
-#caja-sorpresa {
-    background: #e8f4ff;
-    border-left: 6px solid #3498db;
+#caja-sorpresa{
+    background:#e8f4ff;
 }
